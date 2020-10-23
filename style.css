@@ -3,6 +3,15 @@
     padding-bottom: 120px !important;
   }
 
+
+.nav-link {
+  color: white !important;
+}
+
+.bg-content {
+  background-color: #9b9b9b !important;
+}
+
 .mx-footer {
   margin-left: 366px !important;
   margin-right: 366px !important;

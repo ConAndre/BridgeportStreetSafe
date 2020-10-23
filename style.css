@@ -16,6 +16,23 @@
   width: 140px !important;
 }
 
+.footer-links {
+  padding-left: 0px !important;
+}
+
+.footer-links a {
+  color: #9b9b9b !important;
+  text-decoration: none !important;
+}
+
+.footer-links li {
+  list-style-type: none !important;
+  
+}
+
+.footer-icons {
+  padding-left: 10% !important;
+}
 
 .bg-black {
   background-color: black !important;

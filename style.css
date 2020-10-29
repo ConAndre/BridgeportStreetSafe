@@ -48,7 +48,7 @@ html {overflow-x: hidden;}
 }
 
 .bg-black {
-  background-color: black !important;
+  background-color: #231e20 !important;
 }
 
 header {
@@ -58,6 +58,10 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+}
+
+.donateBtn {
+  background-color: #00adef !important;
 }
 
 header video {

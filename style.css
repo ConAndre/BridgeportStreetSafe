@@ -51,6 +51,13 @@ html {overflow-x: hidden;}
   background-color: #231e20 !important;
 }
 
+.bg-blue {
+  background-color: #00adef !important;
+}
+.lh-1 {
+  line-height: 2em !important;
+}
+
 header {
   position: relative;
   background-color: black;

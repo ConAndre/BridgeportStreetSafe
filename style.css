@@ -1,7 +1,6 @@
 
 html {overflow-x: hidden;}
 
-
 .py-footer {
     padding-top: 90px !important;
     padding-bottom: 120px !important;
@@ -67,6 +66,37 @@ header {
   overflow: hidden;
 }
 
+.resource-img {
+  height: 150px;
+  background-color: #241E20;
+  margin-bottom: 22px;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-image: url(img/logo.jpg);
+  /* img is overrided inline style */
+  /* Todo: add resources through js */
+}
+
+.header-img {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-image: url(img/Bridgeport-Connecticut.jpg);}
+
+.resource-title {
+  color: #241E20;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-size: 22px;
+  word-wrap: break-word;
+
+}
+
+.resource-block a, .resource-block a:hover {
+  color: black;
+  text-decoration: none;
+}
 .donateBtn {
   background-color: #00adef !important;
 }

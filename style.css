@@ -66,23 +66,50 @@ header {
   overflow: hidden;
 }
 
+.mission-block {margin-bottom: 52px;}
+
+
+.header-img {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-image: url(img/Bridgeport-Connecticut.jpg);
+}
+  
+
 .resource-img {
-  height: 150px;
-  background-color: #241E20;
+    height: 150px;
+    background-color: #241E20;
+    margin-bottom: 22px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: url(img/logo.jpg);
+    /* img is overrided inline style */
+    /* Todo: add resources through js */
+}
+.affiliate-block {min-width: 230px; padding-left: 0px; padding-right: 0px;}
+
+.affiliate-img{    
+  height: 220px;
+  width: 230px;
   margin-bottom: 22px;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-image: url(img/logo.jpg);
   /* img is overrided inline style */
-  /* Todo: add resources through js */
+  /* Todo: add resources through js */ 
 }
-
-.header-img {
-  background-position: center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-image: url(img/Bridgeport-Connecticut.jpg);}
+.affiliate-title {
+  color: #241E20;
+  line-height: 1em;
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-size: 56px;
+  margin-bottom: 52px;
+  word-wrap: break-word;
+}
 
 .resource-title {
   color: #241E20;
@@ -90,7 +117,6 @@ header {
   text-transform: uppercase;
   font-size: 22px;
   word-wrap: break-word;
-
 }
 
 .resource-block a, .resource-block a:hover {

@@ -75,7 +75,7 @@ header {
   background-repeat: no-repeat !important;
   background-image: url(img/Bridgeport-Connecticut.jpg);
 }
-  
+
 
 .resource-img {
     height: 150px;
@@ -90,7 +90,7 @@ header {
 }
 .affiliate-block {min-width: 230px; padding-left: 0px; padding-right: 0px;}
 
-.affiliate-img{    
+.affiliate-img{
   height: 220px;
   width: 230px;
   margin-bottom: 22px;
@@ -99,7 +99,7 @@ header {
   background-repeat: no-repeat !important;
   background-image: url(img/logo.jpg);
   /* img is overrided inline style */
-  /* Todo: add resources through js */ 
+  /* Todo: add resources through js */
 }
 .affiliate-title {
   color: #241E20;
@@ -160,7 +160,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url(img/streetsafestill.png) black no-repeat center center scroll;
   }
   header video {
     display: none;

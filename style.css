@@ -108,8 +108,25 @@ header {
   /* text-transform: uppercase; */
   font-size: 56px;
   margin-bottom: 52px;
+  margin-top: 30px;
   word-wrap: break-word;
 }
+
+.mission-container {
+  border-top: #00adef 3px solid;
+  border-bottom: #00adef 3px solid;
+}
+.mission-title {
+  color: #241E20;
+  line-height: 1em;
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-size: 56px;
+  margin-bottom: 52px;
+  margin-top: 30px;
+  word-wrap: break-word;
+}
+
 
 .resource-title {
   color: #241E20;

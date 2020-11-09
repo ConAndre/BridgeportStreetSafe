@@ -175,6 +175,7 @@ header .overlay {
   z-index: 1;
 }
 
+
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url(img/streetsafestill.png) black no-repeat center center scroll;

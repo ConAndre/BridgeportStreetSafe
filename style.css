@@ -6,6 +6,9 @@ html {overflow-x: hidden;}
     padding-bottom: 120px !important;
   }
 
+.bg-black {
+  background-color: #241E20;
+}
 
 .nav-link {
   color: white !important;
@@ -116,11 +119,10 @@ header {
 }
 
 .mission-container {
-  border-top: #00adef 3px solid;
   border-bottom: #00adef 3px solid;
 }
 .mission-title {
-  color: #241E20;
+  color: #fff;
   line-height: 1em;
   text-align: center;
   /* text-transform: uppercase; */
@@ -128,7 +130,6 @@ header {
   margin-bottom: 52px;
   margin-top: 30px;
   word-wrap: break-word;
-  font-weight: bold;
 }
 
 .headers {
@@ -200,7 +201,17 @@ header .overlay {
   font-size: 20px;
 }
 
+.carousel .carousel-item {
+  height: 550px;
+}
 
+.carousel-item img {
+  position: absolute;
+  object-fit:cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
 
 @media (pointer: coarse) and (hover: none) {
   header {

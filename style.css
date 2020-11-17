@@ -1,13 +1,22 @@
 
 html {overflow-x: hidden;}
 
+body {
+  background-color: black !important;
+}
+
+.card-media {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: white;
+}
+
 .py-footer {
     padding-top: 90px !important;
     padding-bottom: 120px !important;
   }
 
 .bg-black {
-  background-color: #241E20;
+  background-color: #0f0e0e;
 }
 
 .nav-link {
@@ -47,10 +56,6 @@ html {overflow-x: hidden;}
 .footer-icons {
   padding-left: 10% !important;
   max-width: 10%;
-}
-
-.bg-black {
-  background-color: #231e20 !important;
 }
 
 .bg-blue {

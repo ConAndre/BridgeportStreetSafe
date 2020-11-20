@@ -199,7 +199,7 @@ header .overlay {
 .resourceHeaders {
   text-align: center;
   font-size: 60px;
-
+  color: #ffffff;
 }
 
 .resourceText {
@@ -226,3 +226,6 @@ header .overlay {
     display: none;
   }
 }
+
+label {color: #fff;}
+p {color: #fff}

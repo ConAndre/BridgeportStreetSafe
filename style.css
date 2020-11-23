@@ -4,6 +4,17 @@ body {
   background-color: black !important;
 }
 
+dl{
+  color: white;
+}
+dt{
+  color: white;
+}
+dd{
+  color: white;
+  padding-left: 40px;
+}
+
 .card-media {
   background-color: rgba(255, 255, 255, 0.05) !important;
   color: white;

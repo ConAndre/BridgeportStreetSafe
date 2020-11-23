@@ -1,4 +1,3 @@
-
 html {overflow-x: hidden;}
 
 body {
@@ -14,7 +13,13 @@ body {
     padding-top: 90px !important;
     padding-bottom: 120px !important;
   }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
 
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 .bg-black {
   background-color: #0f0e0e;
 }
@@ -57,14 +62,13 @@ body {
   padding-left: 10% !important;
   max-width: 10%;
 }
-
 .bg-blue {
   background-color: #00adef !important;
 }
-.lh-1 {
-  line-height: 2em !important;
-  font-size: 76px;
-  font-weight: bold;
+
+.lh-2 {
+  line-height: 3em !important;
+  font-size: 24px;
 }
 
 header {
@@ -86,13 +90,9 @@ header {
   background-image: url(img/Bridgeport-Connecticut.jpg);
 }
 
-.memoriam-img {
-  border-radius: 50%;
-}
-
 
 .resource-img {
-    height: 150px;
+    height: 250px;
     background-color: #241E20;
     margin-bottom: 22px;
     background-position: center !important;
@@ -126,19 +126,15 @@ header {
   word-wrap: break-word;
   font-weight: bold;
 }
-
 .mission-container {
-  border-bottom: #00adef 3px solid;
+  background-color: rgb(255, 255, 255, .012);
+  padding: 50px;
 }
 .mission-title {
-  color: #fff;
-  line-height: 1em;
-  text-align: center;
-  /* text-transform: uppercase; */
-  font-size: 76px;
-  margin-bottom: 52px;
-  margin-top: 30px;
   word-wrap: break-word;
+  font-size: 34px;
+  font-weight: 500;
+  padding-bottom: 50px;
 }
 
 .headers {
@@ -146,13 +142,16 @@ header {
   font-weight: bold;
 }
 
+.resource-text {
+  font-size: 20px;
+  line-height: 1.6em;
 
+}
 .resource-title {
-  color: #241E20;
-  line-height: 1em;
+  color:rgb(100, 98, 98);
+  line-height: 2em;
   text-transform: uppercase;
   font-size: 22px;
-  word-wrap: break-word;
 }
 
 .resource-block a, .resource-block a:hover {
@@ -161,37 +160,6 @@ header {
 }
 .donateBtn {
   background-color: #00adef !important;
-}
-
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
 }
 
 .display-5 {
@@ -210,16 +178,57 @@ header .overlay {
   font-size: 20px;
 }
 
-.carousel .carousel-item {
-  height: 550px;
+.intro-container {
+  padding: 50px;
 }
 
-.carousel-item img {
+.intro-text {
+  line-height: 2em;
+  font-size: 24px;
+}
+
+.intro-text-bigger {
+  line-height: 1.5em;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.b-r {
+  border-right: white thin solid;
+}
+
+#carousel1 .nav a small {
+  display: block;
+}
+#carousel1 .nav {
+  background: #eee;
+}
+.nav-justified > li > a {
+  border-radius: 0px;
+}
+.nav-pills > li[data-slide-to="0"].active a {
+  background-color: #b4d9a7;
+}
+.nav-pills > li[data-slide-to="1"].active a {
+  background-color: #4f77cb;
+}
+.nav-pills > li[data-slide-to="2"].active a {
+  background-color: #d11e4f;
+}
+.overlay {
   position: absolute;
-  object-fit:cover;
   top: 0;
   left: 0;
-  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .65;
+  filter:blur(1px);
+  -o-filter:blur(1px);
+  -ms-filter:blur(1px);
+  -moz-filter:blur(1px);
+  -webkit-filter:blur(1px);
+  z-index: 1;
 }
 
 @media (pointer: coarse) and (hover: none) {
@@ -233,5 +242,3 @@ header .overlay {
 
 label {color: #fff;}
 p {color: #fff}
-h2{color: #fff}
-h4{color: #00adef}

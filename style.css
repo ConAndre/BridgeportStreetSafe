@@ -241,6 +241,8 @@ header {
 }
 
 label {color: #fff;}
-p {color: #fff}
 h2{color: #fff}
 h4{color: #00adef}
+p {color: #fff;}
+ul {color: #fff; text-align: center; list-style-position: inside;}
+.resourceBullets{font-size: 20px;}

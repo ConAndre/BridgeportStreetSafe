@@ -261,4 +261,18 @@ h2{color: #fff}
 h4{color: #00adef}
 p {color: #fff;}
 ul {color: #fff; text-align: center; list-style-position: inside;}
-.resourceBullets{font-size: 20px;}
+.resourceBullets{font-size: 40px;}
+b {text-decoration: underline;}
+.contactInfo {text-align: center; font-size: 30px}
+.contactHeaders {
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

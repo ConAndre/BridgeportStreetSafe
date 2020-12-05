@@ -261,9 +261,9 @@ h2{color: #fff}
 h4{color: #00adef}
 p {color: #fff;}
 ul {color: #fff; text-align: center; list-style-position: inside;}
-.resourceBullets{font-size: 40px;}
+.resourceBullets{font-size: 40px; list-style-type: none;}
 b {text-decoration: underline;}
-.contactInfo {text-align: center; font-size: 30px}
+.contactInfo {text-align: center; font-size: 50px}
 .contactHeaders {
   text-align: center;
   font-size: 60px;
@@ -275,4 +275,17 @@ b {text-decoration: underline;}
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 80px;
 }
+li a:hover {text-decoration: none; color: #ff5910;}
+#mobile {display: none;}
+#desktop {display: inline;}
+@media only all and (max-width: 768px) {
+  #mobile {display: inline;}
+  #desktop {display: none;}
+}
+
+.partnerHeader {  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  text-decoration: underline;}

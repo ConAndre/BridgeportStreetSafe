@@ -55,14 +55,15 @@ dd{
 
 .footer-slogan {
   color: #9b9b9b !important;
-  font-size: 12px !important;
+  font-size: 18px !important;
   line-height: 25px !important;
   margin: 0 0 35px !important;
-  width: 140px !important;
+  width: 180px !important;
 }
 
 .footer-links {
   padding-left: 0px !important;
+  font-size: 18px !important;
 }
 
 .footer-links a {
@@ -256,9 +257,10 @@ header {
   }
 }
 
+.ss-blue{color: #00adef}
 label {color: #fff;}
 h2{color: #fff}
-h4{color: #00adef}
+h4{color: #fff}
 p {color: #fff;}
 ul {color: #fff; text-align: center; list-style-position: inside;}
 .resourceBullets{font-size: 40px; list-style-type: none;}

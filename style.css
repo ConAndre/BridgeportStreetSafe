@@ -6,11 +6,11 @@ body {
 
 dl{
   color: white;
-  font-size: 14px;
+  font-size: 20px;
 }
 dt{
   color: white;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 dd{
   color: white;
   padding-left: 40px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .card-media {

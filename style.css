@@ -59,6 +59,12 @@ dd{
   background-color: #9b9b9b !important;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
 .mx-footer {
   margin-left: 366px !important;
   margin-right: 366px !important;

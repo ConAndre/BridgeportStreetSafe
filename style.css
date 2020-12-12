@@ -64,6 +64,10 @@ dd{
   height: 35vw;
   object-fit: cover;
 }
+.card-vid-top {
+  width: 100%;
+  object-fit: cover;
+}
 
 .mx-footer {
   margin-left: 366px !important;

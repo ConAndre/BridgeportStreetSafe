@@ -3,7 +3,6 @@
 // =============================================================================
 
 mediaNameSpace = function() {
-
   function initMediaData() {
     return {
       src: {
@@ -36,7 +35,6 @@ mediaNameSpace = function() {
       },
     }
   }
-
   function checkCards(imgCount, vidCount) {
     const count = imgCount + vidCount;
     let cards = [...document.getElementsByClassName("card-template")];
@@ -47,7 +45,6 @@ mediaNameSpace = function() {
       loadCards(cards);
     };
   }
-
   function loadCards(cards) {
     let mediaData = initMediaData();
     cards.map(function (element, index) {

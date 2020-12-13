@@ -12,9 +12,9 @@
 
   <title>StreetSafe Media</title>
 
+  <script src="media.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="media.js"></script>
 </head>
 <body>
   <nav id="nav"></nav>
@@ -38,16 +38,19 @@
       </div>
     </div>
   </div>
-<footer id="footer"></footer>
-</body>
-<script>
-  $( "#nav" ).load( "assets/nav.html");
-  $( "#footer" ).load( "assets/footer.html");
-  $( ".media-card-vid" ).load( "assets/media-card-vid.html");
-  $( ".media-card-img" ).load( "assets/media-card-img.html");
+  <footer id="footer"></footer>
+  <script>
+  $(function() {
+    $( "#nav" ).load( "assets/nav.html");
+    $( "#footer" ).load( "assets/footer.html");
+    $( ".media-card-vid" ).load( "assets/media-card-vid.html");
+    $( ".media-card-img" ).load( "assets/media-card-img.html");
+  });
   mediaNameSpace.checkCards(
     [...document.getElementsByClassName('media-card-img')].length,
     [...document.getElementsByClassName('media-card-vid')].length
   );
-</script>
+  </script>
+</body>
 </html>
+

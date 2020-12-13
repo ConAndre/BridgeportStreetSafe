@@ -18,38 +18,36 @@
 </head>
 <body>
   <nav id="nav"></nav>
-  <div class="container" style="max-width: 900px;">
+  <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md-9">
         <h1 class="text-center my-4 text-white"></h1>
         <div class="media-card-img"></div>
         <div class="media-card-img"></div>
         <div class="media-card-img"></div>
         <div class="media-card-vid"></div>
         <div class="media-card-vid"></div>
-        <ul class="pagination justify-content-center mb-4">
-          <li class="page-item">
-          <a class="page-link" href="#">&larr; Older</a>
-          </li>
-          <li class="page-item disabled">
-          <a class="page-link" href="#">Newer &rarr;</a>
-          </li>
-        </ul>
+      </div>
+      <div class="col">
+        <div class="media-sidepanel sticky-top"></div>
       </div>
     </div>
   </div>
   <footer id="footer"></footer>
   <script>
-  $(function() {
-    $( "#nav" ).load( "assets/nav.html");
-    $( "#footer" ).load( "assets/footer.html");
-    $( ".media-card-vid" ).load( "assets/media-card-vid.html");
-    $( ".media-card-img" ).load( "assets/media-card-img.html");
-  });
-  mediaNameSpace.checkCards(
-    [...document.getElementsByClassName('media-card-img')].length,
-    [...document.getElementsByClassName('media-card-vid')].length
-  );
+    $(function () {
+      $("#nav").load("assets/nav.html");
+      $("#footer").load("assets/footer.html");
+      $(".media-sidepanel").load("assets/media-sidepanel.html");
+      $(".media-card-img").load("assets/media-card-img.html");
+      $(".media-card-vid").load("assets/media-card-vid.html");
+    });
+    setTimeout(function () {
+      mediaNameSpace.checkCards(
+        Object.assign(document.getElementsByClassName('media-card-img')).length,
+        Object.assign(document.getElementsByClassName('media-card-vid')).length
+      )
+    }, 650);
   </script>
 </body>
 </html>

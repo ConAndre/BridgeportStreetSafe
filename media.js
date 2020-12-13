@@ -37,7 +37,6 @@ mediaNameSpace = function() {
   function checkCards(imgCount, vidCount) {
     const count = imgCount + vidCount;
     let cards = Object.assign({}, document.getElementsByClassName("card-template"));
-
     if (Object.keys(cards).length !== count) {
       setTimeout(checkCards, 650, imgCount, vidCount);
     } else {

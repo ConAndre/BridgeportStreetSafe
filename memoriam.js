@@ -1,5 +1,5 @@
 // =============================================================================
-//  Method for Media
+//  Method for Memoriam
 // =============================================================================
 memoriamNameSpace = function() {
   function initMemoriamData() {

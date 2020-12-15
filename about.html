@@ -12,6 +12,7 @@
 
   <title>About StreetSafe</title>
 
+  <script src="about.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -32,15 +33,6 @@
       </div>
     </div>
   </section>
-  <section class="my-3 py-1">
-    <div class="container">
-      <div class="container">
-        <div class="col text-center">
-          <h1></h1>
-        </div>
-      </div>
-    </div>
-  </section>
   <section>
     <h1 class="resourceHeaders py-3">The Mission</h1>
     <p class="text-center w-50 mx-auto">StreetSafe Bridgeport (SSB) aims to contribute to a reduction of violence
@@ -56,106 +48,21 @@
       proven-risk individuals (PRI’s) to be safe while they develop their education, employment, and life skills.
     </p>
   </section>
-  </section>
   <section>
     <div class="col text-center">
       <h1 class="resourceHeaders py-3">Meet The Team</h1>
       <div class="container marketing">
-        <div class="row justify-content-center">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/ebony.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Ebony Epps</h2>
-            <h4 class="ss-blue">Program Director</h4>
-            <ul class="text-center">
-              <li>25 years with Regional Youth Adult Social Action Partnership</li>
-              <li>State Certified: Domestic Violence & Sexual Assault</li>
-              <li>Bachelor's degree in Psychology</li>
-              <li>Certification in Mental Health First Aid</li>
-              <li>Certification in QPR: Suicide Prevention</li>
-              <li>Facilitator for Finding Her Voice (Gender specific program)</li>
-              <li>Facilitator NAMI: Mental Health Family Support Group</li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Generic placeholder image" width="140" height="140">
-            <h2>Edward Calderon</h2>
-            <h4 class="ss-blue">Supervisor</h4>
-            <ul>w
-              <li>TBD</li>
-            </ul>
-          </div>
+        <div class="d-flex justify-content-between w-100">
+          <div class="about-figure"></div>
+          <div class="about-figure"></div>
         </div>
-        <div class="row py-3">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/harry.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Harry Bell</h2>
-            <h4 class="ss-blue">Outreach Worker</h4>
-            <ul>
-              <li>Author of a Children’s Book</li>
-              <li>Security Guard at Curiale Elementary School</li>
-              <li>Manager of the 1st Urban Rugby Team in Bridgeport CT</li>
-              <li>Recent Recipient of a Staff Recognition Award by the Superintendent of Schools</li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/aquill.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Aquil Crooks</h2>
-            <h4 class="ss-blue">Outreach Worker</h4>
-            <ul>
-              <li>Community Activist</li>
-              <li>Community Liaison for the States Attorney office</li>
-              <li>Program Manager at Hang Time</li>
-              <li>Sociology Major at Southern Connecticut University</li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/arthur.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Arthur Preston</h2>
-            <h4 class="ss-blue">Outreach Worker</h4>
-            <ul>
-              <li>Community Activist</li>
-              <li>Entrepreneur</li>
-              <li>Personal Caregiver</li>
-              <li>Youth Mentor</li>
-            </ul>
-          </div>
+        <div class="d-flex justify-content-between w-100">
+          <div class="about-figure"></div>
+          <div class="about-figure"></div>
+          <div class="about-figure"></div>
         </div>
-        <div class="row py-3">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/clifford.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>remove</h2>
-            <h4 class="ss-blue">Outreach Worker</h4>
-            <ul>
-              <li>Motivational Speaker/Youth Leader</li>
-              <li>Previously Employed by Pivot Ministries</li>
-              <li>Entrepreneur</li>
-              <li>Previous owner of a Sober House</li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/anthony.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Anthony Marshall</h2>
-            <h4 class="ss-blue">Outreach Worker</h4>
-            <ul>
-              <li>Community Activist</li>
-              <li>NAACP Member</li>
-              <li>Halfway House Counselor</li>
-              <li>Youth Mentor</li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="img/james.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>remove</h2>
-            <h4 class="ss-blue">Outreach Worker</h4>
-            <ul>
-              <li>Community Activist</li>
-              <li>Personal Fitness Trainer</li>
-              <li>Current Sales Officer at LA Fitness</li>
-              <li>Youth Mentor</li>
-            </ul>
-          </div>
+        <div class="d-flex justify-content-between w-100">
+          <div class="about-figure"></div>
         </div>
       </div>
     </div>
@@ -170,7 +77,13 @@
     $(function () {
       $("#nav").load("assets/nav.html");
       $("#footer").load("assets/footer.html");
+      $(".about-figure").load("assets/about-figure.html");
     });
+    setTimeout(function () {
+      aboutNameSpace.checkFigures(
+        document.getElementsByClassName('about-figure').length
+      )
+    }, 120);
   </script>
 </body>
 </html>

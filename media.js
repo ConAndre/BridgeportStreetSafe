@@ -4,7 +4,7 @@
 mediaNameSpace = function() {
   function initMediaData() {
     return {
-      src: {
+      srcs: {
         0: "img/clifford.jpg",
         1: "img/IMG_20201210_131648951.jpg",
         2: "img/IMG_20201210_131648951.jpg",
@@ -54,7 +54,6 @@ mediaNameSpace = function() {
     if (cards.length !== count) {
       setTimeout(checkCards, 650, imgCount, vidCount);
     } else {
-      // With more values, the conversion to array takes longer.
       loadCards(cards);
     };
   }
@@ -62,7 +61,7 @@ mediaNameSpace = function() {
     let mediaData = initMediaData();
     cards.map(function (element, index) {
       const cardData = {
-        src: mediaData.src[index],
+        src: mediaData.srcs[index],
         title: mediaData.titles[index],
         description: mediaData.descriptions[index],
         url: mediaData.url[index],

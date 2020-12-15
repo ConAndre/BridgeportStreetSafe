@@ -4,7 +4,7 @@
 memoriamNameSpace = function() {
   function initMemoriamData() {
     return {
-      src: {
+      srcs: {
         0: "img/IMG_20201210_131648951.jpg",
         1: "img/IMG_20201210_131648951.jpg",
         2: "img/IMG_20201210_131648951.jpg",
@@ -51,11 +51,10 @@ memoriamNameSpace = function() {
     }
   }
   function checkFigures(figCount) {
-    let figures = Object.assign([], document.getElementsByClassName("media-card-template"));
+    let figures = Object.assign([], document.getElementsByClassName("memoriam-figure-template"));
     if (figures.length !== figCount) {
       setTimeout(checkFigures, 650, figCount);
     } else {
-      // With more values, the conversion to array takes longer.
       loadFigures(figures);
     };
   }
@@ -63,7 +62,7 @@ memoriamNameSpace = function() {
     let memoriamData = initMemoriamData();
     figures.map(function (element, index) {
       const figureData = {
-        src: memoriamData.src[index],
+        src: memoriamData.srcs[index],
         name: memoriamData.names[index],
         year: memoriamData.years[index],
         description: memoriamData.descriptions[index],

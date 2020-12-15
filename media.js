@@ -79,7 +79,7 @@ mediaNameSpace = function() {
     loadSidePanel(mediaData);
   }
   return {
-    checkCards:checkCards
+    checkCards
   }
 }();
 

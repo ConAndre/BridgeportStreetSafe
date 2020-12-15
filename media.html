@@ -44,8 +44,8 @@
     });
     setTimeout(function () {
       mediaNameSpace.checkCards(
-        Object.assign(document.getElementsByClassName('media-card-img')).length,
-        Object.assign(document.getElementsByClassName('media-card-vid')).length
+        document.getElementsByClassName('media-card-img').length,
+        document.getElementsByClassName('media-card-vid').length
       )
     }, 650);
   </script>

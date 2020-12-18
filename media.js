@@ -5,32 +5,34 @@ mediaNameSpace = function() {
   function initMediaData() {
     return {
       srcs: {
-        0: "img/clifford.jpg",
-        1: "img/IMG_20201210_131648951.jpg",
-        2: "img/IMG_20201210_131648951.jpg",
-        3: "img/COS_preview.mp4",
-        4: "img/SS_preview.mp4"
+        0: "img/COS_preview.mp4",
+        1: "img/SS_preview.mp4",
+        2: "https://scontent-bos3-1.cdninstagram.com/v/t51.2885-15/e35/101648864_2739023312997155_5516040083780597251_n.jpg?_nc_ht=scontent-bos3-1.cdninstagram.com&_nc_cat=111&_nc_ohc=TACAVsh6JxcAX8toJfu&tp=1&oh=085b7b204f4ca9e6d3d6148a648065d7&oe=6007A419",
+        3: "https://scontent-bos3-1.cdninstagram.com/v/t51.2885-15/e35/101455255_557347975206438_2107385966578023101_n.jpg?_nc_ht=scontent-bos3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=jxIHtA6h38sAX-G7RKp&tp=1&oh=0924ceacdc909a9975a09dbbf1266859&oe=6005D8DC",
       },
       titles: {
-        0: "Clifford",
-        1: "Toy Donation",
-        2: "Toy Donation 2",
-        3: "City of Shooters",
-        4: "StreetSafe Program"
+        0: "City of Shooters",
+        1: "StreetSafe Program",
+        2: "Mt. Aery Baptist Rally",
+        3: "Mentees in action"
       },
       descriptions: {
         0: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
         1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!"
+        2: "StreetSafe Bridgeport & Mt. Aery Baptist Stop Killing Us Rally! 6/5/20",
+        3: "StreetSafe Meentees learning the construction trade through training and hands on experience 5/27/20",
       },
-      url: {
-        0: "media2.html",
-        1: "media2.html",
-        2: "media2.html",
-        3: "media2.html",
-        4: "media2.html"
+      urls: {
+        0: "https://vimeo.com/249623939",
+        1: "https://www.dropbox.com/s/sm53x5cyubthat6/Streetsafe_edit_01.mp4?dl=0",
+        2: "https://www.instagram.com/p/CBEn0vRHCQz/",
+        3: "",
+      },
+      dates: {
+        0: "7 December 2020",
+        1: "7 December 2020",
+        2: "5 June 2020",
+        3: "4 June 2020",
       }
     }
   }
@@ -64,15 +66,17 @@ mediaNameSpace = function() {
         src: mediaData.srcs[index],
         title: mediaData.titles[index],
         description: mediaData.descriptions[index],
-        url: mediaData.url[index],
+        url: mediaData.urls[index],
+        date: mediaData.dates[index],
       }
-      if (!!!cardData.src || !!!cardData.title || !!!cardData.description || !!!cardData.url) return alert(`Missing post information about #${index}`)
+      if (!!!cardData.src || !!!cardData.title || !!!cardData.description || (!!!cardData.url && cardData.url !== "")) return alert(`Missing post information about #${index}`)
       element.getElementsByClassName("card-img-top")[0].setAttribute("src", cardData.src);
       element.getElementsByClassName("card-img-top")[0].id = cardData.title.replace(/\s+/g, '-').toLowerCase();
       element.getElementsByClassName("card-title")[0].innerHTML = cardData.title;
       element.getElementsByClassName("card-text")[0].innerHTML = cardData.description;
       element.getElementsByClassName("card-link")[0].setAttribute("href", cardData.url);
-      element.getElementsByClassName("card-link")[0].classList.remove("d-none");
+      cardData.url && element.getElementsByClassName("card-link")[0].classList.remove("d-none");
+      element.getElementsByClassName("card-footer")[0].innerHTML += cardData.date;
       return element
     });
     loadSidePanel(mediaData);

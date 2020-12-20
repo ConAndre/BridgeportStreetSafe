@@ -20,7 +20,7 @@ mediaNameSpace = function() {
         0: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
         1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
         2: "StreetSafe Bridgeport & Mt. Aery Baptist Stop Killing Us Rally! 6/5/20",
-        3: "StreetSafe Meentees learning the construction trade through training and hands on experience 5/27/20",
+        3: "StreetSafe Mentees learning the construction trade through training and hands on experience 5/27/20",
       },
       urls: {
         0: "https://vimeo.com/249623939",

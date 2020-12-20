@@ -19,17 +19,19 @@
 <body>
   <nav id="nav"></nav>
   <div class="container">
-    <div class="d-flex flex-row-reverse">
-        <div class="container d-none d-md-block pl-5 py-3">
-          <div class="media-sidepanel sticky-top"></div>
-        </div>
-        <div>
-          <h1 class="text-center my-4 text-white"></h1>
-          <div class="media-card-vid"></div>
-          <div class="media-card-vid"></div>
-          <div class="media-card-img"></div>
-          <div class="media-card-img"></div>
-        </div>
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center my-4 text-white"></h1>
+        <!-- Media Content -->
+        <div class="media-card-vid"></div>
+        <div class="media-card-vid"></div>
+        <div class="media-card-img"></div>
+        <div class="media-card-img"></div>
+        <!-- End Media Content -->
+      </div>
+      <div class="col-3 d-none d-md-block py-3">
+        <div class="media-sidepanel sticky-top"></div>
+      </div>
     </div>
   </div>
   <footer id="footer"></footer>

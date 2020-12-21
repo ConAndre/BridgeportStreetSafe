@@ -29,12 +29,12 @@ aboutNameSpace = function() {
         5: "Outreach Worker",
       },
       descriptions: {
-        0: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
+        0: "Ebony has 25 years with Regional Youth Adult Social Action Partnership, State Certified in Domestic Violence and Sexual Assault, Bachelor's degree in Psychology, Certification in Mental Health First Aid, and Certification in QPR: Suicide Prevention.",
         1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
-        5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!",
+        2: "Harry is a Author of a Children's Book, Security Guard at Curiale Elementary School, Manager of the 1st Urban Rugby Team in Bridgeport, CT, and Recent recipient of a staff recognition award by the Supepintendent of schools.",
+        3: "Aquill is a community activist, community liaison for the states attorney office, program manager at Hang Time, is a youth mentor, and Sociology Major at Southern Connecticut University.",
+        4: "Author is a community activist, entrepreneur, personal caregiver, and youth mentor. Author is a community activist, entrepreneur, personal caregiver, and youth mentor.",
+        5: "Anthony is a community activist, NAACP Member, Halfway House Counselor, and youth mentor.",
       },
     }
   }

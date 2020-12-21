@@ -5,15 +5,15 @@ memoriamNameSpace = function() {
   function initMemoriamData() {
     return {
       srcs: {
-        0: "img/IMG_20201210_131648951.jpg",
-        1: "img/IMG_20201210_131648951.jpg",
-        2: "img/IMG_20201210_131648951.jpg",
-        3: "img/IMG_20201210_131648951.jpg",
-        4: "img/IMG_20201210_131648951.jpg",
-        5: "img/IMG_20201210_131648951.jpg",
-        6: "img/IMG_20201210_131648951.jpg",
-        7: "img/IMG_20201210_131648951.jpg",
-        8: "img/IMG_20201210_131648951.jpg",
+        0: "img/loading.svg",
+        1: "img/loading.svg",
+        2: "img/loading.svg",
+        3: "img/loading.svg",
+        4: "img/loading.svg",
+        5: "img/loading.svg",
+        6: "img/loading.svg",
+        7: "img/loading.svg",
+        8: "img/loading.svg",
       },
       names: {
         0: "Name Placeholder",
